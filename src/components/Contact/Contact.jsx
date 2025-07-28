@@ -55,7 +55,7 @@ function Contact() {
             <FaFacebookF />
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/samehwad122"
             target="_blank"
             rel="noreferrer"
             className="circle-icon icon-glow"
