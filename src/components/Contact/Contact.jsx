@@ -46,7 +46,7 @@ function Contact() {
           transition={{ duration: 1, delay: 0.8 }}
         >
           <a
-            href="https://facebook.com"
+            href="https://www.facebook.com/share/1Y8YD6KEKj/"
             target="_blank"
             rel="noreferrer"
             className="circle-icon icon-glow"
@@ -64,7 +64,7 @@ function Contact() {
             <FaGithub />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/%D9%8Dsameh-mohamed-2a0a46376?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             target="_blank"
             rel="noreferrer"
             className="circle-icon icon-glow"
@@ -73,7 +73,7 @@ function Contact() {
             <FaLinkedinIn />
           </a>
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/smhlmsry90?igsh=MWl0dWd1Y2o5cG5qcg=="
             target="_blank"
             rel="noreferrer"
             className="circle-icon icon-glow"
@@ -82,7 +82,7 @@ function Contact() {
             <FaInstagram />
           </a>
           <a
-            href="https://wa.me/201234567890"
+            href="https://wa.me/201119465761"
             target="_blank"
             rel="noreferrer"
             className="circle-icon icon-glow"
@@ -91,14 +91,14 @@ function Contact() {
             <FaWhatsapp />
           </a>
           <a
-            href="mailto:example@email.com"
+            href="samehwad2@gmail.com"
             className="circle-icon icon-glow"
             title="Email"
           >
             <FaEnvelope />
           </a>
           <a
-            href="tel:+201234567890"
+            href="tel:+201119465761"
             className="circle-icon icon-glow"
             title="Phone"
           >
