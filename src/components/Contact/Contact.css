@@ -1,0 +1,49 @@
+
+/* أيقونات التواصل */
+.social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.circle-icon {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 2px solid var(--glow-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 255, 255, 0.08);
+  box-shadow: 0 0 15px var(--glow-color), 0 0 25px var(--glow-color);
+  color: #fff;
+  font-size: 1.5rem;
+  transition: transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+}
+
+.circle-icon:hover {
+  transform: scale(1.15);
+  color: var(--glow-color);
+  background-color: rgba(0, 255, 255, 0.2);
+  box-shadow: 0 0 25px var(--glow-color), 0 0 40px var(--glow-color);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .glow-text {
+    font-size: 2rem;
+  }
+
+  .hero-subtext {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+
+  .circle-icon {
+    width: 48px;
+    height: 48px;
+    font-size: 1.3rem;
+  }
+}

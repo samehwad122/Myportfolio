@@ -1,0 +1,173 @@
+:root {
+  --glow-color: #00ffff;
+}
+
+.hero-transparent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+  background-color: transparent;
+  text-align: center;
+}
+
+/* الصورة داخل دائرة متوهجة */
+.avatar-container {
+  position: relative;
+  margin-bottom: 10px; /* قللناها */
+}
+
+.glow-avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid var(--glow-color);
+  box-shadow: 0 0 15px var(--glow-color), 0 0 30px var(--glow-color);
+  z-index: 2;
+}
+
+.glow-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* المدارات */
+.orbit-container {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.orbit {
+  position: absolute;
+  border-radius: 50%;
+  border: 20px dashed var(--glow-color);
+  animation: spin 10s linear infinite;
+}
+
+.orbit1 {
+  width: 260px !important;
+  height: 200px !important;
+  animation-duration: 10s;
+}
+
+.orbit2 {
+  width: 200px !important;
+  height: 260px !important;
+  animation-duration: 14s;
+  border-style: dotted;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg) translateZ(0); }
+  100% { transform: rotate(360deg) translateZ(0); }
+}
+
+
+
+.hero-subtext {
+  color: #ccc;
+  font-size: 1.3rem  !important;
+  max-width: 500px;
+  margin: 8px auto 20px auto;
+  text-shadow: 0 0 8px var(--glow-color);
+}
+
+/* زر تحميل CV */
+.download-btn-fancy {
+  background-color: rgba(0, 255, 255, 0.1);
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 12px;
+  border: 1px solid var(--glow-color);
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: none;
+  box-shadow: 0 0 10px var(--glow-color);
+  transition: all 0.3s ease;
+}
+
+.download-btn-fancy:hover {
+  background-color: rgba(0, 255, 255, 0.2);
+  color: var(--glow-color);
+  box-shadow: 0 0 20px var(--glow-color), 0 0 40px var(--glow-color);
+}
+
+/* أيقونات التواصل */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.icon-glow {
+  font-size: 2rem;
+  color: #fff;
+  text-shadow: 0 0 10px var(--glow-color);
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.circle-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid var(--glow-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 255, 255, 0.1);
+  box-shadow: 0 0 10px var(--glow-color), 0 0 20px var(--glow-color);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .glow-text {
+    font-size: 1.8rem;
+  }
+
+  .hero-subtext {
+    font-size: 0.95rem;
+    margin-top: 4px;
+    margin-bottom: 18px;
+    padding: 0 10px;
+  }
+
+  .glow-avatar {
+    width: 150px;
+    height: 150px;
+  }
+
+  /* .orbit1, .orbit2 {
+    display: none;
+  } */
+
+  .circle-icon {
+    width: 45px;
+    height: 45px;
+    font-size: 1.5rem;
+  }
+
+  .download-btn-fancy {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+
+  .avatar-container {
+    margin-bottom: 5px;
+  }
+  .glow-text {
+  font-size: 1.3rem !important;
+}
+
+.hero-subtext {
+  font-size: 1.1rem  !important;
+
+}
+}
