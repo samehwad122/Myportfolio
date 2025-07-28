@@ -63,7 +63,7 @@ function Home() {
         transition={{ delay: 0.8 }}
       >
         <motion.a
-          href="https://github.com/"
+          href="https://github.com/samehwad122"
           target="_blank"
           className="icon-glow circle-icon"
           whileHover={{ scale: 1.3, rotate: 10 }}
@@ -71,7 +71,7 @@ function Home() {
           <FaGithub />
         </motion.a>
         <motion.a
-          href="https://linkedin.com/"
+          href="https://www.linkedin.com/in/%D9%8Dsameh-mohamed-2a0a46376?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
           target="_blank"
           className="icon-glow circle-icon"
           whileHover={{ scale: 1.3, rotate: -10 }}
@@ -79,7 +79,7 @@ function Home() {
           <FaLinkedin />
         </motion.a>
         <motion.a
-          href="https://facebook.com/"
+          href="https://www.facebook.com/share/1Y8YD6KEKj/"
           target="_blank"
           className="icon-glow circle-icon"
           whileHover={{ scale: 1.3, rotate: 10 }}
