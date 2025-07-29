@@ -45,7 +45,7 @@ function Home() {
       </motion.p>
 
       <motion.a
-        href="https://drive.google.com/file/d/1lcW0OSArEGTt4036eGTWpi16__Az6uX3/view?usp=sharing"
+        href="https://drive.google.com/file/d/1aYJlBeJ7U-8np1VGf8uHux3Scje1vwrf/view?usp=sharing"
         download
         className="download-btn-fancy"
         initial={{ opacity: 0, y: 20 }}

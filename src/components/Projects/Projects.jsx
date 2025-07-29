@@ -12,6 +12,7 @@ import pro8 from "../../assets/images/img-pro/solar.png";
 import pro9 from "../../assets/images/img-pro/todo.png";
 import pro10 from "../../assets/images/img-pro/bgcolor.png";
 import pro11 from "../../assets/images/img-pro/calculator.png";
+import pro12 from "../../assets/images/img-pro/clock.png";
 
 function Projects() {
   return (
@@ -277,6 +278,30 @@ function Projects() {
           <h3 className="project-title glow-text">Task calculator </h3>
           <p className="project-description glow-text">
          Task calculator designed using html, css and javascript
+
+          </p>
+        </motion.div>
+        <motion.div
+          className="col-12 col-sm-8 col-md-5 col-lg-3 project-card"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.1 }}
+          viewport={{ once: true }}
+        >
+          <a
+            href="https://samehwad122.github.io/Clock/"
+            className="project-image-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="image-container">
+              <img src={pro12} alt="Pasket Project" className="project-image" />
+              <div className="overlay">View</div>
+            </div>
+          </a>
+          <h3 className="project-title glow-text">Task clock </h3>
+          <p className="project-description glow-text">
+         Task clock designed using html, css and javascript
 
           </p>
         </motion.div>
