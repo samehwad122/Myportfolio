@@ -6,6 +6,12 @@ import pro2 from "../../assets/images/img-pro/pasket.png";
 import pro3 from "../../assets/images/img-pro/papa.png";
 import pro4 from "../../assets/images/img-pro/fresh.png";
 import pro5 from "../../assets/images/img-pro/pro-css.png";
+import pro6 from "../../assets/images/img-pro/movies.png";
+import pro7 from "../../assets/images/img-pro/dashbord.png";
+import pro8 from "../../assets/images/img-pro/solar.png";
+import pro9 from "../../assets/images/img-pro/todo.png";
+import pro10 from "../../assets/images/img-pro/bgcolor.png";
+import pro11 from "../../assets/images/img-pro/calculator.png";
 
 function Projects() {
   return (
@@ -132,6 +138,146 @@ function Projects() {
           <h3 className="project-title glow-text">Games store</h3>
           <p className="project-description glow-text">
             Design an online store to sell games using HTML and CSS
+          </p>
+        </motion.div>
+        <motion.div
+          className="col-12 col-sm-8 col-md-5 col-lg-3 project-card"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.1 }}
+          viewport={{ once: true }}
+        >
+          <a
+            href="https://samehwad122.github.io/project-css/"
+            className="project-image-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="image-container">
+              <img src={pro6} alt="Pasket Project" className="project-image" />
+              <div className="overlay">View</div>
+            </div>
+          </a>
+          <h3 className="project-title glow-text">Movies website</h3>
+          <p className="project-description glow-text">
+            Movie display website designed using html and bootstrap   
+          </p>
+        </motion.div>
+        <motion.div
+          className="col-12 col-sm-8 col-md-5 col-lg-3 project-card"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.1 }}
+          viewport={{ once: true }}
+        >
+          <a
+            href="https://samehwad122.github.io/Dash-Bored/"
+            className="project-image-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="image-container">
+              <img src={pro7} alt="Pasket Project" className="project-image" />
+              <div className="overlay">View</div>
+            </div>
+          </a>
+          <h3 className="project-title glow-text">Dashboard</h3>
+          <p className="project-description glow-text">
+            Dashboard designed using html, bootstrap and jquery  
+          </p>
+        </motion.div>
+        <motion.div
+          className="col-12 col-sm-8 col-md-5 col-lg-3 project-card"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.1 }}
+          viewport={{ once: true }}
+        >
+          <a
+            href="https://samehwad122.github.io/Solar/"
+            className="project-image-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="image-container">
+              <img src={pro8} alt="Pasket Project" className="project-image" />
+              <div className="overlay">View</div>
+            </div>
+          </a>
+          <h3 className="project-title glow-text">solar website</h3>
+          <p className="project-description glow-text">
+           A website to display solar energy sources designed using HTML and CSS
+          </p>
+        </motion.div>
+        <motion.div
+          className="col-12 col-sm-8 col-md-5 col-lg-3 project-card"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.1 }}
+          viewport={{ once: true }}
+        >
+          <a
+            href="https://samehwad122.github.io/To-Do/"
+            className="project-image-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="image-container">
+              <img src={pro9} alt="Pasket Project" className="project-image" />
+              <div className="overlay">View</div>
+            </div>
+          </a>
+          <h3 className="project-title glow-text">TO DO Task </h3>
+          <p className="project-description glow-text">
+           TO DO designed using html, css and javascript
+          </p>
+        </motion.div>
+        <motion.div
+          className="col-12 col-sm-8 col-md-5 col-lg-3 project-card"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.1 }}
+          viewport={{ once: true }}
+        >
+          <a
+            href="https://samehwad122.github.io/taskbgColor/"
+            className="project-image-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="image-container">
+              <img src={pro10} alt="Pasket Project" className="project-image" />
+              <div className="overlay">View</div>
+            </div>
+          </a>
+          <h3 className="project-title glow-text">Task Bg Color </h3>
+          <p className="project-description glow-text">
+          Task Bg Color  designed using html, css and javascript
+
+          </p>
+        </motion.div>
+        <motion.div
+          className="col-12 col-sm-8 col-md-5 col-lg-3 project-card"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.1 }}
+          viewport={{ once: true }}
+        >
+          <a
+            href="https://samehwad122.github.io/calculator/"
+            className="project-image-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="image-container">
+              <img src={pro11} alt="Pasket Project" className="project-image" />
+              <div className="overlay">View</div>
+            </div>
+          </a>
+          <h3 className="project-title glow-text">Task calculator </h3>
+          <p className="project-description glow-text">
+         Task calculator designed using html, css and javascript
+
           </p>
         </motion.div>
 
