@@ -13,6 +13,7 @@ import pro9 from "../../assets/images/img-pro/todo.png";
 import pro10 from "../../assets/images/img-pro/bgcolor.png";
 import pro11 from "../../assets/images/img-pro/calculator.png";
 import pro12 from "../../assets/images/img-pro/clock.png";
+import pro13 from "../../assets/images/img-pro/dash.png";
 
 function Projects() {
   return (
@@ -24,6 +25,29 @@ function Projects() {
       <div className="row justify-content-center project-row container">
 
         {/* Project Card 1 */}
+        <motion.div
+          className="col-12 col-sm-8 col-md-5 col-lg-3 project-card"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          viewport={{ once: true }}
+        >
+          <a
+            href=" https://rainbow-sawine-3064c2.netlify.app/"
+            className="project-image-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="image-container">
+              <img src={pro13} alt="DarkLook Store" className="project-image" />
+              <div className="overlay">View</div>
+            </div>
+          </a>
+          <h3 className="project-title glow-text">Emergency Department Dashboard </h3>
+          <p className="project-description glow-text">
+            A responsive hospital emergency management dashboard built with React.js and TailwindCSS. Features Supabase email/password authentication (email: sameh1234@gmail.com / password: 123456789), real-time data, interactive charts, form validation, and state management with Context API
+          </p>
+        </motion.div>
         <motion.div
           className="col-12 col-sm-8 col-md-5 col-lg-3 project-card"
           initial={{ opacity: 0, y: 50 }}
@@ -44,7 +68,29 @@ function Projects() {
           </a>
           <h3 className="project-title glow-text">DarkLook Store</h3>
           <p className="project-description glow-text">
-            E-commerce store built with React and styled components.
+Responsive online store built with React , React Router , and Axios for API integration. Styled using Bootstrap 5 and enhanced with Swiper, Lottie, and SweetAlert2. Features include dynamic product display, cart system, and smooth UI interactions          </p>
+        </motion.div>
+                <motion.div
+          className="col-12 col-sm-8 col-md-5 col-lg-3 project-card"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.1 }}
+          viewport={{ once: true }}
+        >
+          <a
+            href="https://sameh-mohamed-project-papajohns.netlify.app/"
+            className="project-image-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="image-container">
+              <img src={pro3} alt="Pasket Project" className="project-image" />
+              <div className="overlay">View</div>
+            </div>
+          </a>
+          <h3 className="project-title glow-text">Papa John's restaurant</h3>
+          <p className="project-description glow-text">
+            Built a responsive multi-page restaurant website using React , React Router , and Bootstrap 5, with data handled through Supabase and Axios. Features include dynamic menu display, branch information, image sliders via Swiper, and a modern, user-friendly UI. 
           </p>
         </motion.div>
 
@@ -72,29 +118,7 @@ function Projects() {
             Grocery delivery and shopping UI project designed with React technology
           </p>
         </motion.div>
-        <motion.div
-          className="col-12 col-sm-8 col-md-5 col-lg-3 project-card"
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.1 }}
-          viewport={{ once: true }}
-        >
-          <a
-            href="https://sameh-mohamed-project-papajohns.netlify.app/"
-            className="project-image-link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div className="image-container">
-              <img src={pro3} alt="Pasket Project" className="project-image" />
-              <div className="overlay">View</div>
-            </div>
-          </a>
-          <h3 className="project-title glow-text">Papa John's restaurant</h3>
-          <p className="project-description glow-text">
-            Papa John's restaurant project designed using React and API using supabase
-          </p>
-        </motion.div>
+
         <motion.div
           className="col-12 col-sm-8 col-md-5 col-lg-3 project-card"
           initial={{ opacity: 0, y: 50 }}
