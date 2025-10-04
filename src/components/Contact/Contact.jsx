@@ -82,7 +82,7 @@ function Contact() {
             <FaInstagram />
           </a>
           <a
-            href="https://wa.me/0544949734"
+            href="https://wa.me/201119465761"
             target="_blank"
             rel="noreferrer"
             className="circle-icon icon-glow"
@@ -98,7 +98,7 @@ function Contact() {
             <FaEnvelope />
           </a>
           <a
-            href="tel:+201119465761"
+            href="tel:+9710544949734"
             className="circle-icon icon-glow"
             title="Phone"
           >
