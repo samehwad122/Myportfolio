@@ -82,7 +82,7 @@ function Contact() {
             <FaInstagram />
           </a>
           <a
-            href="https://wa.me/201119465761"
+            href="https://wa.me/0544949734"
             target="_blank"
             rel="noreferrer"
             className="circle-icon icon-glow"
